@@ -12,7 +12,7 @@ const createElkQuery = (...paramsList) => {
 const queryAfter = createElkQuery({ 'parameter1': '1' }, { 'parameter2': '2' }, { 'parameter3': '3' });
 ```
 
-## ELk query Builder
+## Elk query Builder
 ![Elk Query Builder](https://github.com/mikemajesty/refactor-javascript-code/blob/main/img/elkQueryBuilder/queryBuilderKibana.png?raw=true)
 
 ```
@@ -36,3 +36,17 @@ const query = filterList.map(filter => {
 
 ## Input creator
 ![Elk Query Builder](https://github.com/mikemajesty/refactor-javascript-code/blob/main/img/inputCreator/inputCreator.png?raw=true)
+
+```
+const parameters = [
+    { "name": "user", "tag": "input", "type": "hidden", "value": "usertest" },
+    { "name": "password", "tag": "input", "type": "hidden", "value": "passtest" },
+    { "tag": "input", "name": "exam", "type": "hidden", "value": "covid" }
+];
+
+const tagCreator = (params) => ({
+    input: `<input type='${params.type}' name='${params.name}' value='${params.value}' />`
+})[params.tag];
+
+console.log(...parameters.map(tag => tagCreator(tag)));
+```
