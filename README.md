@@ -1,6 +1,6 @@
-# refactor-javascript-code
+## My best codes and my best refactorings from around the world in the last month.
 
-## ELk query refactor using [Rest Parameters]
+### ELk query refactor using [Rest Parameters]
 ![Elk Query Refactor](https://github.com/mikemajesty/refactor-javascript-code/blob/main/img/restParameters/elkQuery.png?raw=true)
 
 ```
@@ -12,7 +12,7 @@ const createElkQuery = (...paramsList) => {
 const queryAfter = createElkQuery({ 'parameter1': '1' }, { 'parameter2': '2' }, { 'parameter3': '3' });
 ```
 
-## Elk query Builder
+### Elk query Builder
 ![Elk Query Builder](https://github.com/mikemajesty/refactor-javascript-code/blob/main/img/elkQueryBuilder/queryBuilderKibana.png?raw=true)
 
 ```
@@ -34,7 +34,7 @@ const query = filterList.map(filter => {
 }).join(" AND ");
 ```
 
-## Input creator
+### Input creator
 ![Elk Query Builder](https://github.com/mikemajesty/refactor-javascript-code/blob/main/img/inputCreator/inputCreator.png?raw=true)
 
 ```
