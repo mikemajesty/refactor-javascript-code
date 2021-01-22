@@ -2,7 +2,7 @@
 
 <hr>
 
-### ELk query refactor using [Rest Parameters]
+### ELk query refactor
 ![Elk Query Refactor](https://github.com/mikemajesty/refactor-javascript-code/blob/main/img/restParameters/elkQuery.png?raw=true)
 
 ```
