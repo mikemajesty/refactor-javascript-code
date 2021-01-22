@@ -20,8 +20,6 @@ const queryAfter = createElkQuery({ 'parameter1': '1' }, { 'parameter2': '2' }, 
 ![Elk Query Builder](https://github.com/mikemajesty/refactor-javascript-code/blob/main/img/elkQueryBuilder/queryBuilderKibana.png?raw=true)
 
 ```
-const elkPropertyList = ['city', 'brand'];
-
 const filterList = [
   {"field":"city","value":["SP"]},
   {"field":"state","value":["RJ", "PR"]},
