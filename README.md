@@ -33,3 +33,6 @@ const query = filterList.map(filter => {
   return defaultQuery(filter);
 }).join(" AND ");
 ```
+
+## Input creator
+![Elk Query Builder](https://github.com/mikemajesty/refactor-javascript-code/blob/main/img/inputCreator/inputCreator.png?raw=true)
